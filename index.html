@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Mikiyas Assefa | Portfolio</title>
+  <link rel="stylesheet" href="style.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/>
+</head>
+<body>
+  <!--Theme toggle-->
+  <!--<div class="theme-toggle">
+    <i class="fas fa-moon"></i>
+  </div>-->
+  <header class="floating-nav">
+    <div class="logo">Mikiyas<span>Assefa</span></div>
+    <nav>
+      <a href="#home" class="active">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+      <div class="theme-toggle">
+        <i class="fas fa-moon"></i>
+      </div>
+    </nav>
+  </header>
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <h1>Hi, I'm <span class="highlight">Mikiyas Assefa</span></h1>
+      <h2 class="typed"><span id="role"></span></h2>
+      <p>
+        I build beautiful, modern, and responsive websites.<br>
+        Let's create something amazing together!
+      </p>
+      <div class="hero-socials">
+        <a href="https://github.com/dashboard" target="_blank" title="Visit my GitHub"><i class="fab fa-github"></i></a>
+        <!--<a href="https://linkedin.com/in/mikiyasassefa" target="_blank" title="Connect on LinkedIn"><i class="fab fa-linkedin"></i></a>-->
+        <a href="mailto:assefamikiyas922@gmail.com" title="Send me an email"><i class="fas fa-envelope"></i></a>
+      </div>
+      <a href="#projects" class="cta-btn">See My Work</a>
+    </div>
+    <div class="hero-image">
+      <img src="5G5Amiki.jpg" alt="Profile Picture"/>
+    </div>
+  </section>
+  <section id="about" class="about">
+    <h2>About Me</h2>
+    <div class="about-content">
+      <p>
+        I'm a passionate web developer with a love for clean code and creative design. I specialize in building fast, accessible, and visually engaging websites and web apps.
+      </p>
+    </div>
+  </section>
+  <section id="skills" class="skills">
+    <h2>Skills</h2>
+    <div class="skills-grid">
+      <div class="skill-card">
+        <i class="fab fa-html5"></i>
+        <h3>HTML5</h3>
+        <div class="skill-bar">
+          <div class="skill-level" style="width: 90%"></div>
+        </div>
+      </div>
+      <div class="skill-card">
+        <i class="fab fa-css3-alt"></i>
+        <h3>CSS3</h3>
+        <div class="skill-bar">
+          <div class="skill-level" style="width: 85%"></div>
+        </div>
+      </div>
+      <div class="skill-card">
+        <i class="fab fa-js-square"></i>
+        <h3>JavaScript</h3>
+        <div class="skill-bar">
+          <div class="skill-level" style="width: 80%"></div>
+        </div>
+      </div>
+      <div class="skill-card">
+        <i class="fab fa-react"></i>
+        <h3>React</h3>
+        <div class="skill-bar">
+          <div class="skill-level" style="width: 75%"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="projects" class="projects">
+    <h2>Projects</h2>
+      <section class="projects" id="projects">
+      <h2>My Projects</h2>
+      <div class="project">
+        <h3>Personal Portfolio</h3>
+        <p>This is my very first project, where I created a personal portfolio using HTML, CSS and JavaScript.</p>
+        <img src="Screenshot 2025-05-12 141851.png" alt="My portfolio image" />
+      </div>
+    </section>
+    </div>
+  </section>
+  <section id="contact" class="contact">
+    <h2>Contact</h2>
+    <form id="contactForm" action="https://formspree.io/f/xnndgdab" method="POST" autocomplete="off">
+      <div class="form-group">
+        <input type="text" name="name" id="name" required/>
+        <label for="name">Your Name</label>
+      </div>
+      <div class="form-group">
+        <input type="email" name="email" id="email" required/>
+        <label for="email">Your Email</label>
+      </div>
+      <div class="form-group">
+        <textarea name="message" id="message" required></textarea>
+        <label for="message">Your Message</label>
+      </div>
+      <button type="submit" class="cta-btn">Send Message</button>
+    </form>
+    <div id="formMessage"></div>
+  </section>
+  <footer>
+    <p>&copy; 2024 Mikiyas Assefa. All rights reserved.</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
